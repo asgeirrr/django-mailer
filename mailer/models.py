@@ -36,9 +36,9 @@ STATUS_SENT = 1
 STATUS_DEFERRED = 2
 
 STATUS_CHOICES = (
-    (STATUS_PENDING, _("Pending")),
     (STATUS_SENT, _("Sent")),
     (STATUS_DEFERRED, _("Deferred")),
+    (STATUS_PENDING, _("Pending")),
 )
 
 
